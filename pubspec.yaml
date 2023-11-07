@@ -1,6 +1,6 @@
 name: mediasoup_engine
 description: mediasoup_engine
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/ambjn/mediasoup-engine
 owner: ambjn
 
@@ -11,16 +11,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_webrtc: ^0.9.33
   events2: ^1.0.0
   sdp_transform: ^0.3.2
   collection: ^1.16.0
   h264_profile_level_id: ^0.2.0
+  flutter_webrtc: ^0.9.46
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
